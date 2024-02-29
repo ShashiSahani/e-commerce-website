@@ -1,0 +1,80 @@
+//navbar.scss
+
+@import '../../Assets/Utils/Colors.scss';
+.navbar {
+    font-family:"Roboto", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px $black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.nav-logo p{
+    color: $nav-logo-color;
+    font-size: 34px;
+    font-weight: 600;
+
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: $nav-menu-color;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    gap:20px;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+    cursor: pointer;
+}
+.nav-menu li hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: $border-color;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+.nav-login-cart button{
+    width: 120px;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    background-color: $white;
+
+    color: $button-color;
+    border: 1px solid $button-border;
+    border-radius: 70px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-login-cart button:active{
+    background-color: $button-active;
+}
+.nav-cart-count{
+    display: flex;
+    width: 22px;
+    background-color: $cart-count;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    margin-top: -45px;
+    margin-left: -25px;
+    color: $white;
+}

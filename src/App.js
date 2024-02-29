@@ -1,12 +1,12 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-
+import Shops from './pages/Shops.jsx';
 function App() {
   return (
-    <div>
+    < >
       <Navbar/>
-      
-    </div>
+      <Shops/>
+    </>
   );
 }
 
