@@ -1,0 +1,26 @@
+@import '../../Assets/Utils/Colors.scss';
+.popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background:linear-gradient(rgb(219, 197, 200),rgb(177, 177, 210));
+    overflow: scroll;
+    
+}
+.popular h1{
+    color: $nav-logo-color;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    background-color: $hr-color;
+    border-radius: 10px;
+}
+.popular-item{
+    display: flex;
+    margin-top: 50px;
+}

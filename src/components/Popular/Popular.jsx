@@ -2,11 +2,12 @@ import React from "react";
 import "./Popular.scss";
 import data_product from "../../Assets/data";
 import Items from "../Items/Items";
+import * as String from '../../Assets/Utils/Strings';
 console.log(data_product);
 function Popular() {
   return (
     <div className="popular">
-      <h1>POPULAR IN WOMEN</h1>
+      <h1>{String.popular}</h1>
       <hr />
       <div className="popular-item">
         {data_product?.map((item, i) => {

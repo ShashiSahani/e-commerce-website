@@ -1,6 +1,11 @@
 @import '../../Assets/Utils/Colors.scss';
 .item{
     width: 350px;
+    gap: 10px;
+    // border: 5px solid black;
+    // gap: 50px;
+    padding: 10px
+
 }
 .item p{
     margin: 6px  0px;
@@ -8,11 +13,15 @@
 }
 .item-prices{
     display: flex;
+    margin:10px;
+    flex-direction: column;
 }
 .item-prices-new{
-    color:$item-color;
+    color:$item-color-new;
     font-size: 18px;
     font-weight: 600;
+    margin-right: 10px;
+    
 }
 .item-prices-old{
     color: $item-color-old;
