@@ -14,6 +14,7 @@ export const offerForYou="Offer For You";
 export const only_on="ONLY ON BEST SELLERS PRODUCTS";
 export const check_Now="Check Now";
 export const Special_price="Special price:";
+export const New_Collections="NEW COLLECTIONS"
 
 
 export default String

@@ -7,13 +7,7 @@ import * as String from "../../../Assets/Utils/Strings";
 function Hero() {
   return (
     <div className="hero">
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-        }}
-      >
+      <div className="hero-main">
         <div className="hero-left">
           <h2>{String.new_arrival}</h2>
         </div>

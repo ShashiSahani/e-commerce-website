@@ -1,4 +1,51 @@
-.offers{
-    display: flex;
+@import '../../Assets/Utils/Colors.scss';
 
+.offers {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    height: 60vh;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, $linear-1, $linear-2 60%)
+}
+
+.offer-left {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+}
+
+.offer-left h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: $nav-logo-color;
+}
+
+.offer-left p {
+    color: $nav-logo-color;
+    font-size: 22px;
+    font-weight: 600;
+}
+.offer-left button{
+    color: $white;
+    background: $hero-btn;
+    font-size: 22px;
+    margin-top: 15px;
+    border-radius: 35px;
+    width: 282px;
+    height: 70px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.offer-right{
+    flex:1;
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    margin-top: 50px;
 }
