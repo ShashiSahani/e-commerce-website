@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     font-weight: 500;
-    color: $nav-menu-color;
+    color: $nav-menu-color !important;
     font-size: 16px;
     list-style: none;
     text-decoration: none;
@@ -36,6 +36,7 @@
     justify-content: center;
     align-items: center;
     gap:3px;
+    color: $nav-menu-color !important;
     cursor: pointer;
 }
 .nav-menu li hr{
@@ -77,4 +78,13 @@
     margin-top: -45px;
     margin-left: -25px;
     color: $white;
+}
+
+.nav-menu li a{
+
+    color: $nav-menu-color !important;
+ 
+}
+.nav-login-cart button a{
+    color: $nav-menu-color !important;
 }

@@ -1,0 +1,15 @@
+@import '../../Assets/Utils/Colors.scss';
+
+.new-collections {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.collections {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+}

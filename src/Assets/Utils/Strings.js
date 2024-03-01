@@ -15,6 +15,11 @@ export const only_on="ONLY ON BEST SELLERS PRODUCTS";
 export const check_Now="Check Now";
 export const Special_price="Special price:";
 export const New_Collections="NEW COLLECTIONS"
+export const Company="Company";
+export const Products="Products";
+export const Offices="Offices";
+export const About="About";
+export const Contact="Contact"
 
 
 export default String
