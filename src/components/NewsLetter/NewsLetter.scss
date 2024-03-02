@@ -1,0 +1,58 @@
+@import '../../Assets/Utils/Colors.scss';
+.newsletter{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg,$linear-1,$linear-2);
+    gap:30px;
+
+}
+.newsletter h1{
+    margin-top: 10%;
+    color: $newsletter;
+    font-weight: 600;
+    font-size: 50px;
+}
+.newsletter p{
+    color: $newsletter;
+    font-size: 20px;
+
+}
+.newsletter div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $white;
+    width: 730px;
+    height: 70px;
+    border-radius:80px;
+    border: 1px solid $newsletterdiv ;
+}
+.newsletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none ;
+    color: $newsletterinput;
+    font-family: 'Poppins';
+    font-size: 16px;
+
+}
+.newsletter div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: $black;
+    color: $white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.newsletter div button:hover{
+    background:rgb(40, 39, 39);
+    border: none;
+}

@@ -19,7 +19,12 @@ export const Company="Company";
 export const Products="Products";
 export const Offices="Offices";
 export const About="About";
-export const Contact="Contact"
+export const Contact="Contact";
+export const Get_Exclusive_offers_on_your_Email='Get Exclusive  offers on your Email!';
+export const newsLetterp='Subscribe to our newsletter and stay updated';
+export const youremail='Your Email Id';
+export const Subscribe="Subscribe";
+
 
 
 export default String
