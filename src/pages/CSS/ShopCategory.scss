@@ -1,0 +1,29 @@
+@import '../../Assets/Utils/Colors.scss';
+.dropdownIcon{
+    display: flex;
+    justify-content: center;
+}
+.shop-category-banner{
+   display: block; 
+width: 85%;
+margin: 30px auto;
+}
+.shopcategory-indexsort{
+display: flex;
+margin: 0px 170px;
+justify-content: space-between;
+align-items: center;
+}
+.shopcategory-indexsort p span{
+font-weight: 600;
+}
+.shopcategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid $shopcategory;
+}
+.shopcategory-products{
+display: flex;
+flex-wrap: wrap;
+}   
+
