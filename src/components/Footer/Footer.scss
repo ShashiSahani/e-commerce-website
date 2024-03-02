@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 50px;
     background:linear-gradient(180deg,$linear-1,$linear-2);
 }
@@ -31,6 +32,7 @@
 }
 .footer-socials-icon{
     display: flex;
+    // flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -39,6 +41,7 @@
 .footer-icon-container{
     padding: 10px;
     padding-bottom: 6px;
+  
     background-color: $footer-icon-color;
     border: 1px solid $footer-border-color;
 }

@@ -3,7 +3,7 @@ import "./Popular.scss";
 import data_product from "../../Assets/data";
 import Items from "../Items/Items";
 import * as String from '../../Assets/Utils/Strings';
-console.log(data_product);
+// console.log(data_product);
 function Popular() {
   return (
     <div className="popular">

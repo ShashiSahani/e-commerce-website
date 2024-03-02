@@ -14,7 +14,6 @@ function Shops() {
       <Offers/>
       <NewCollections/>
       <NewsLetter/>
-      <Footer/>
     </div>
   )
 }
