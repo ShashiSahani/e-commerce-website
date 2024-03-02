@@ -6,6 +6,9 @@ import LoginSignup from "./pages/LoginSignup.jsx";
 import Product from "./pages/Product.jsx";
 import ShopCategory from "./pages/ShopCategory.jsx";
 import Shops from "./pages/Shops.jsx";
+import men_banner from './Assets/banner_mens.png'
+import women_banner from './Assets/banner_women.png'
+import kids_banner from './Assets/banner_kids.png'
 import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -16,9 +19,9 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Shops />} />
-          <Route path="/mens" element={<ShopCategory category="men" />} />
-          <Route path="/womens" element={<ShopCategory category="womens" />} />
-          <Route path="/kids" element={<ShopCategory category="kids" />} />
+          <Route path="/mens" element={<ShopCategory banner={men_banner} category="men" />} />
+          <Route path="/womens" element={<ShopCategory banner={women_banner} category="womens" />} />
+          <Route path="/kids" element={<ShopCategory  banner={kids_banner} category="kids" />} />
           <Route path="/product" element={<Product />}>
             <Route path=":productId" element={<Product />} />
           </Route>
