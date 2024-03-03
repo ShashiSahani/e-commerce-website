@@ -6,7 +6,8 @@ function Breadcrum(props) {
     const {product}=props;
   return (
     <div className='breadcrum'>
-      {String.Home} <img src={arrow_icon}/>{String.Home} <img src={arrow_icon} alt=""  />{product.category}
+      {String.Home} <img src={arrow_icon}/>{String.Home}
+       <img src={arrow_icon} alt=""  />{product.category}
       <img src={arrow_icon} />
       {product.name}
     </div>
