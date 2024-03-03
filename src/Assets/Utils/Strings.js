@@ -29,7 +29,7 @@ export const Continue="Continue";
 export const sing_up="Sign Up";
 export const login="Login";
 export const already_have_account="already have account?";
-
+export const Home="Home";
 
 
 
