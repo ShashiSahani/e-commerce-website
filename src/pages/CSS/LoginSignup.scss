@@ -1,0 +1,77 @@
+@import '../../Assets/Utils/Colors.scss';
+.loginsignup{
+width: 100%;
+height: 100vh;
+
+background:$login-color;
+padding-top: 100px;
+}
+.loginsignup-container{
+    width: 580px;
+    height: 600px;
+    background: $white;
+    margin: auto;
+    padding: 40px 60px;
+    border-radius: 5px;
+box-shadow: 0 0 10px  1px $box-shadow;
+
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+
+}
+
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    // width: 80%;
+    margin-top: 30px;
+    gap:25px;
+    justify-content: center;
+   
+}
+.loginsignup-fields input{
+    height: 70px;
+    padding-left: 20px;
+    border: 1px solid $login-input;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.loginsignup-container button{
+    width: 580px;
+    height: 72px;
+    color: $white;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    background:$login-button-color;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.loginsignup-container button:hover{
+    background:$login-button-color-hover;
+}
+.loginsignup-login{
+ margin-top: 20px;
+ font-size:18px ;
+ font-weight: 500;
+ color: $login-input;
+
+
+}
+.loginsignup-login span{
+    color: $login-button-color;
+}
+.loginsignup-login span:hover{
+    color: $login-button-color-hover;
+}
+.loginsignup-agree{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    color: $login-input;
+    font-weight: 500;
+}

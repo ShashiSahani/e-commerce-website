@@ -3,6 +3,7 @@ import './CSS/ShopCategory.scss'
 import dropdownIcon from '../Assets/dropdown_icon.png'
 import { ShopContext } from '../components/Context/ShopContext'
 import Items from '../components/Items/Items'
+import  * as String from '../Assets/Utils/Strings'
 function ShopCategory(props) {
   const {all_product}=useContext(ShopContext)
   console.log(all_product)
@@ -29,6 +30,10 @@ function ShopCategory(props) {
           }
          }) 
         }
+      </div>
+      
+      <div className="shopcategory-loadmore">
+       {String.Explore_More}
       </div>
     </div>
 

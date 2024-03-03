@@ -25,5 +25,18 @@ font-weight: 600;
 .shopcategory-products{
 display: flex;
 flex-wrap: wrap;
-}   
+}  
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+    margin: 150px auto;
+    width: 233px;
+    border-radius: 75px;
+    color: $expolre_more_color;
+    background-color: $explore_more;
+    font-size: 18px;
+    font-weight: 500;
+} 
 

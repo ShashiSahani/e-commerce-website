@@ -24,6 +24,12 @@ export const Get_Exclusive_offers_on_your_Email='Get Exclusive  offers on your E
 export const newsLetterp='Subscribe to our newsletter and stay updated';
 export const youremail='Your Email Id';
 export const Subscribe="Subscribe";
+export const Explore_More="Explore More";
+export const Continue="Continue";
+export const sing_up="Sign Up";
+export const login="Login";
+export const already_have_account="already have account?";
+
 
 
 
