@@ -1,0 +1,22 @@
+@import '../../Assets//Utils/Colors.scss';
+.descriptionbox{
+    margin: 120px 170px;
+}
+.descriptionbox-navigator{
+    display: flex;
+    // background-color: red;
+}
+.descriptionbox-nav-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171px;
+    height: 70px;
+    border: 1px solid $descriptionbox-nav-box;
+}
+.descriptionbox-nav-box .fade{
+   background-color: $fade;
+   color: $fade;
+}
