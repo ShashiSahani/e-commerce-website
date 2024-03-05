@@ -5,6 +5,9 @@ export const ShopContext = createContext(null);
 // console.log("shope", ShopContext);
 const ShopContextProvider = (props) => {
   const contextValue = { all_product };
+  const getDefaultCart=()=>{
+    let cart={};
+  }
   return (
     <ShopContext.Provider value={contextValue}>
       {props.children}

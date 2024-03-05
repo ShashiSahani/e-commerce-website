@@ -35,7 +35,10 @@ export const Select_Size="Select Size";
 export const Category="Category";
 export const Tags="Tags";
 export const Description="Description";
-export const Review="Review"
+export const Review="Review";
+export const ReletedProduct="Releted Product";
+export const ReletedProduct_Item="Releted Product Item";
+
 
 
 

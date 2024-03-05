@@ -111,11 +111,9 @@
   .productdisplay-right-sizes ul li button {
     border: none;
     font-size: 15px;
-    // font-weight: 600;
     background-color: transparent; /* Remove any default button background */
   }
   .productdisplay-right-sizes {
-    // background: $login-button-color;
     padding: 10px 0px 10px 0px;
     letter-spacing: 5px;
     border-radius: 5px;
@@ -129,26 +127,27 @@
     background: $login-button-color;
     padding: 10px 0px 10px 0px;
     letter-spacing: 5px;
-    width: 50%;
+    width: 40%;
+    height: 50px;
     border-radius: 1px;
-    border: none;
     font-size: 15px;
     font-weight: 700;    
     border:none;
     color: $white;
+    cursor: pointer;
   }
-  .productdisplay-right .add-to-cart{
-    background: $login-button-color;
-    padding: 10px 0px 10px 0px;
-    letter-spacing: 5px;
-    width: 50%;
-    border-radius: 1px;
-    border: none;
-    font-size: 15px;
-    font-weight: 700;    
-    border:none;
-    color: $white;
-  }
+  // .productdisplay-right .add-to-cart{
+  //   background: $login-button-color;
+  //   padding: 10px 0px 10px 0px;
+  //   letter-spacing: 5px;
+  //   width: 50%;
+  //   border-radius: 1px;
+  //   border: none;
+  //   font-size: 15px;
+  //   font-weight: 700;    
+  //   border:none;
+  //   color: $white;
+  // }
   .productdisplay-right-category{
     margin-top: 10px;
   }

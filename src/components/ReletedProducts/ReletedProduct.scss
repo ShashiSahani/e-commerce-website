@@ -1,0 +1,25 @@
+@import '../../Assets/Utils/Colors.scss';
+
+.reletedproduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.reletedproduct h1{
+    color: $newsletterinput;
+}
+.reletedproduct span{
+    height: 5px;
+    color: $copy-right-hr;
+    background: $copy-right-hr;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.reletedproducts-item{
+    display: flex;
+    flex-wrap: wrap;
+}

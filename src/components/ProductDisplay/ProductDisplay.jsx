@@ -4,7 +4,6 @@ import star_icon from '../../Assets/star_icon.png'
 import star_dull_icon from '../../Assets/star_dull_icon.png'
 import * as String from "../../Assets/Utils/Strings";
 function ProductDisplay(props) {
-  console.log("ProductDisplay", props);
   const { product } = props;
   return (
     <div className="productdisplay">

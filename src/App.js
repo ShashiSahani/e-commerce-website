@@ -9,12 +9,12 @@ import Shops from "./pages/Shops.jsx";
 import men_banner from './Assets/banner_mens.png'
 import women_banner from './Assets/banner_women.png'
 import kids_banner from './Assets/banner_kids.png'
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    // <Router>
-      <BrowserRouter>
+   
+      <Router>
         <Navbar />
 
         <Routes>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/mens" element={<ShopCategory banner={men_banner} category="men" />} />
           <Route path="/womens" element={<ShopCategory banner={women_banner} category="women" />} />
           <Route path="/kids" element={<ShopCategory  banner={kids_banner} category="kid" />} />
-          <Route path="/product" element={<Product />}>
+          <Route path="/product" element={<Product />} >
             <Route path=":productId" element={<Product />} />
           </Route>
 
@@ -30,8 +30,8 @@ function App() {
           <Route path="/login" element={<LoginSignup />} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
-    // </Router>
+      </Router>
+   
   );
 }
 

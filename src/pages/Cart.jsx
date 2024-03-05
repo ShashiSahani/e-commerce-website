@@ -2,8 +2,8 @@ import React from 'react'
 
 function Cart() {
   return (
-    <div>
-      
+    <div className='cart'>
+      <h1>cart</h1>      
     </div>
   )
 }
