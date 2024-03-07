@@ -4,12 +4,13 @@ import remove_icon from "../../Assets/cart_cross_icon.png";
 import { ShopContext } from "../Context/ShopContext";
 
 function CartItems() {
-  const { all_product, cartItems, removeFromCart, updateCartQuantity } =
+  const { all_product, cartItems, removeFromCart, updateCartQuantity ,getTotalCartAmount} =
     useContext(ShopContext);
 
   const handleQuantityChange = (productId, newQuantity) => {
     updateCartQuantity(productId, newQuantity);
   };
+
 
   return (
     <div className="cartitems">
@@ -86,7 +87,7 @@ function CartItems() {
           <h1>Cart Totals</h1>
           <div className="cartitems-total-item">
             <p>Subtotal</p>
-            <p>₹ {0}</p>
+            <p>₹ {getTotalCartAmount()}</p>
           </div>
           <hr />
           <div className="cartitems-total-item">
@@ -98,7 +99,7 @@ function CartItems() {
 
           <div className="cartitems-total-item">
               <h3>Total</h3>
-              <h3>₹{0}</h3>
+              <h3>₹{getTotalCartAmount()}</h3>
             </div>
           <button className="processd-checkout">PROCEED TO CHECKOUT</button>
         </div>
@@ -106,7 +107,7 @@ function CartItems() {
           <p>If You have promo code, Enter it here</p>
           <div className="cartitems-promobox">
             <input type="text" placeholder="promo code" />
-            <button type="submit">submit</button>
+            <button type="submit">Submit</button>
           </div>
         </div>
       </div>
