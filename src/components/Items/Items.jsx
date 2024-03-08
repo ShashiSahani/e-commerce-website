@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Items(props) {
   return (
     <article className="item">
-      {" "}
+      
       {/* Use <article> for the item container */}
       <Link to={`/product/${props.id}`}>
         <img
