@@ -6,7 +6,7 @@ import Items from '../components/Items/Items'
 import  * as String from '../Assets/Utils/Strings'
 function ShopCategory(props) {
   const {all_product}=useContext(ShopContext)
-  console.log(all_product)
+  // console.log(all_product)
   return (
     <div className='shop-category'>
       <img  className="shop-category-banner" src={props.banner} alt="banner" />
