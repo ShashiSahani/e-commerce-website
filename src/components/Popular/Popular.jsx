@@ -7,7 +7,8 @@ import * as String from '../../Assets/Utils/Strings';
 function Popular() {
   return (
     <div className="popular">
-      <h1>{String.popular}</h1>
+     <div className="popular-main">
+     <h1>{String.popular}</h1>
       <hr />
       <div className="popular-item">
         {data_product?.map((item, i) => {
@@ -23,6 +24,7 @@ function Popular() {
           );
         })}
       </div>
+     </div>
     </div>
   );
 }

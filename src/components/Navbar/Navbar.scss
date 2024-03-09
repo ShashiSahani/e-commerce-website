@@ -1,12 +1,13 @@
 @import '../../Assets/Utils/Colors.scss';
 
 .navbar {
+  text-transform:uppercase;
   font-family: "Roboto", sans-serif;
   display: flex;
   // justify-content: space-around;
   justify-content: space-evenly;
   padding: 16px;
-  box-shadow: 0 1px 3px -2px $black;
+box-shadow: 0 1px 3px -2px $black;
 }
 
 .nav-logo {

@@ -1,27 +1,72 @@
 @import '../../Assets/Utils/Colors.scss';
-.popular{
+
+.popular {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    margin-top: 50px;
+    height: 90vh;
     color: $white;
-    background:linear-gradient(180deg,$popular-bg,$popular-bg-2);
-    
+    background: linear-gradient(180deg, $popular-bg, $popular-bg-2);
+
 }
-.popular h1{
+
+.popular-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.popular h1 {
     color: $nav-logo-color;
     font-size: 50px;
     font-weight: 600;
 }
-.popular hr{
+
+.popular hr {
     width: 200px;
     height: 6px;
     background-color: $hr-color;
     border-radius: 10px;
+    border: none;
 }
-.popular-item{
+
+.popular-item {
     display: flex;
-    margin-top: 50px;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+}
+@media (max-width:1280px) {
+    .popular{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background: red;
+    }
+    .popular-main {
+        h1{
+            font-size: 35px;
+        }
+        hr{
+            height: 2px;
+        }
+    }
+}
+@media (max-width:1020px) {
+    .popular{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background: red;
+    }
+    .popular-main {
+        h1{
+            font-size: 25px;
+        }
+        hr{
+            height: 2px;
+            width: 155px;
+        }
+    }
 }
