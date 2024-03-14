@@ -13,3 +13,35 @@
     align-self: center;
     justify-content: space-between;
 }
+@media (max-width:1280px) {
+    .new-collections{
+       h1{
+           font-weight: 500;
+           font-size: 40px;  
+       }
+    }   
+   }
+   @media (max-width:1020px) {
+       .new-collections{
+          h1{
+              font-weight: 400;
+              font-size: 40px;  
+          }
+        }
+      }
+      @media (max-width:800px) {
+        .new-collections{
+           h1{
+               font-weight: 350;
+               font-size: 35px;  
+           }
+         }
+       }
+       @media (max-width:580px) {
+        .new-collections{
+           h1{
+               font-weight: 250;
+               font-size: 25px;  
+           }
+         }
+       }

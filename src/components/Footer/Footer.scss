@@ -62,3 +62,42 @@
     height: 3px;
     background:$copy-right-hr;
 }
+
+@media (max-width:800px) {
+    .footer{
+        gap: 40px;
+    }   
+    .footer-logo{
+      
+        gap: 10px;
+    }
+    .footer-logo img{
+      
+        width: 50px;
+    }
+    .footer-logo p{
+        font-weight: 600;
+        font-size: 30px;
+     }
+     .footer-links{
+        gap: 30px;
+        font-size: 15px;
+      
+      }
+      .footer-icons-container img{
+        width: 20px;
+      }
+      .footer-copyright hr{
+        width: 30%;
+        border-radius: 10px;
+        height: 2px;
+    }
+      .footer-copyright{
+       
+        gap: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 15px;
+      }
+  
+}
