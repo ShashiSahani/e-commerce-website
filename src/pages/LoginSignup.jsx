@@ -17,10 +17,49 @@ function LoginSignup() {
 
   const login = async () => {
     console.log("Login", formData);
+    let responseData;
+    await fetch('http://localhost:8000/login',{
+      method:'POST',
+      headers:{
+        Accept:'application/form-data',
+        'Content-Type':'application/json',
+      },
+      body:JSON.stringify(formData),
+    })
+    .then((response)=>response.json())
+    .then((data)=>(responseData=data));
+    console.log(responseData);
+    if(responseData.success){
+      localStorage.setItem('auth-token',responseData.token)
+      window.location.replace('/');
+    }else{
+      alert(responseData.error);
+    }
   };
 
   const signup = async () => {
     console.log("sign Up", formData);
+    let responseData;
+    await fetch("http://localhost:8000/signup", {
+      method: "POST",
+      headers: {
+        Accept: "application/form-data",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+
+    })
+      .then((response) => response.json())
+      .then((data) => (responseData = data));
+      console.log(responseData)
+      if(responseData.success){
+        localStorage.setItem('auth-token',responseData.token);
+        window.location.replace('/')
+
+      }else{
+        alert(responseData.error);
+      }
+
   };
 
   return (
@@ -38,7 +77,7 @@ function LoginSignup() {
             />
           ) : null}
           <input
-          name="email"
+            name="email"
             type="email"
             placeholder="Email Address"
             value={formData.email}
