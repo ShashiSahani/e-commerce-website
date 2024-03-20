@@ -34,7 +34,11 @@ function Navbar() {
         <li  onClick={()=>setMenu("kids")}><Link to='/kids' style={{textDecoration:"none"}}>{String.kids}</Link> {menu==="kids"?<hr/>:""}</li>
       </ul>
       <div className="nav-login-cart">
+        {localStorage.getItem('auth-token')?
+        <button onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}> <Link to='/' style={{textDecoration:"none"}}>Logout </Link></button>  :
         <button><Link to='/login' style={{textDecoration:"none"}}>{String.Login}</Link></button>
+
+      }
         <Link to='/cart'><img src={cart_icon} alt="card_icon" /></Link>
         <span className="nav-cart-count">
         {getTotalCartItems()}
