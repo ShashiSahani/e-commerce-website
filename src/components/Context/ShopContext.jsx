@@ -12,7 +12,7 @@ const ShopContextProvider = (props) => {
   const [all_product,setAll_Product]=useState([]);
   const [cartItems, setCartItems] = useState(getDefaultCart);
   const [totalItemCount,setTotalItemCount]=useState(0)
-
+// fetching the data from backend
     useEffect(()=>
     {
       fetch('http://localhost:8000/allproducts')
